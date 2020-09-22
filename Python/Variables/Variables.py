@@ -11,3 +11,4 @@ print(float)
 print(type(number))
 print(type(string))
 print(type(float))
+
