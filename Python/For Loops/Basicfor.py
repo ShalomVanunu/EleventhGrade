@@ -2,8 +2,13 @@
 program for
 """
 
+sentence = "today is wednesday"
+
+for _ in range(len(sentence)):
+    print("?")
 
 
+print("________________________________________________________________")
 
 for num in range(0,10,3): # 0,3,6,9
     print(num)
