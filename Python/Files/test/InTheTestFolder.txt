@@ -1,0 +1,3 @@
+This exercise show the fuul path of python
+
+use the "r" to user \test folder
