@@ -1,9 +1,7 @@
 
-import hashlib
+import hashlib # deals with HASH function
 
-
-
-text = b"shalom"
+text = b"Shalom"
 
 hash = hashlib.md5(text)
 
