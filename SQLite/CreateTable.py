@@ -11,13 +11,13 @@ name TEXT,
 LastName TEXT,
 email TEXT );
 """
+name = "itai"
 
 # Insert new ROW with data
 insert_data = """
 INSERT INTO class (name,LastName,email) VALUES ("shalom","vanunu","shalomvanunu@mekifh.edum.org.il")
-
 """
-name = "shalom"
+
 
 insert_data1 = f"""
 INSERT INTO class (name,LastName,email) VALUES ({name},"klainer","itayk@gmail.com")
@@ -37,11 +37,12 @@ def connection_db(db_file):
 def execute_query(connection,query):
     cursor = connection.cursor() # init DB
     try:
-        cursor.execute(query)
-        connection.commit()
+        cursor.execute(query) #what to do
+        
+        connection.commit() # do!
     except:
         print("Error")
-
+        
 
 if __name__ == "__main__":
     con = connection_db("Class.db")
