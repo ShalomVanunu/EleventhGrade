@@ -15,3 +15,5 @@ except:
 os.chdir("class")
 with open("test.txt", "w") as write: # w - overwrite || a- append
     write.write("")
+isexsist = os.path.isfile("test.txt")
+print(isexsist)
