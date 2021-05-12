@@ -10,10 +10,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a70f1d7-54b7-4e97-8238-72c7acc51c7b" name="Default Changelist" comment="Updated 1/3/2021">
-      <change afterPath="$PROJECT_DIR$/Tkinter/ManageUsers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tkinter/UserDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EleventhGrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EleventhGrade.iml" afterDir="false" />
+    <list default="true" id="4a70f1d7-54b7-4e97-8238-72c7acc51c7b" name="Default Changelist" comment="Updated 2/3/2021&#10;UsersManager Tkinter">
+      <change afterPath="$PROJECT_DIR$/SOCKET/BaseSocket/Server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,28 +56,7 @@
       <recent name="C:\Users\shalomvanunu\PycharmProjects\EleventhGrade\Receiving Input" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ManageUsers">
-    <configuration name="ComboWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="EleventhGrade" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/ComboWindow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Server">
     <configuration name="ImageWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EleventhGrade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,13 +141,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EleventhGrade" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOCKET/BaseSocket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOCKET/BaseSocket/Server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Server" />
         <item itemvalue="Python.ManageUsers" />
         <item itemvalue="Python.ImageWindow" />
         <item itemvalue="Python.RadioWindow" />
         <item itemvalue="Python.PopupWindow" />
-        <item itemvalue="Python.ComboWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614590311841</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated 2/3/2021&#10;UsersManager Tkinter">
+      <created>1614679674991</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614679674991</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +343,8 @@
     <MESSAGE value="Updated 16/2/2021" />
     <MESSAGE value="Updated 23/2/2021" />
     <MESSAGE value="Updated 1/3/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated 1/3/2021" />
+    <MESSAGE value="Updated 2/3/2021&#10;UsersManager Tkinter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated 2/3/2021&#10;UsersManager Tkinter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="53" key="FileChooserDialogImpl" timestamp="1613748918307">
@@ -349,11 +355,11 @@
     <state x="441" y="72" key="FileChooserDialogImpl/0.0.1382.724@0.0.1382.724" timestamp="1612005553809" />
     <state x="451" y="74" key="FileChooserDialogImpl/0.0.1413.748@0.0.1413.748" timestamp="1606119186663" />
     <state x="280" y="46" key="FileChooserDialogImpl/0.0.878.650@0.0.878.650" timestamp="1612269684791" />
-    <state width="1417" height="163" key="GridCell.Tab.0.bottom" timestamp="1614679503967">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1257" height="163" key="GridCell.Tab.0.bottom" timestamp="1614697176289">
+      <screen x="0" y="0" width="1280" height="565" />
     </state>
     <state width="1251" height="44" key="GridCell.Tab.0.bottom/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="3" key="GridCell.Tab.0.bottom/0.0.1280.565@0.0.1280.565" timestamp="1614670462406" />
+    <state width="1257" height="163" key="GridCell.Tab.0.bottom/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
     <state width="1257" height="178" key="GridCell.Tab.0.bottom/0.0.1280.569@0.0.1280.569" timestamp="1608722202009" />
     <state width="1257" height="12" key="GridCell.Tab.0.bottom/0.0.1280.571@0.0.1280.571" timestamp="1607418540138" />
     <state width="1257" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
@@ -363,12 +369,12 @@
     <state width="1359" height="187" key="GridCell.Tab.0.bottom/0.0.1382.724@0.0.1382.724" timestamp="1612018517830" />
     <state width="1390" height="200" key="GridCell.Tab.0.bottom/0.0.1413.669@0.0.1413.669" timestamp="1605607081072" />
     <state width="1390" height="178" key="GridCell.Tab.0.bottom/0.0.1413.748@0.0.1413.748" timestamp="1608900752650" />
-    <state width="1417" height="163" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1614679503967" />
-    <state width="1417" height="163" key="GridCell.Tab.0.center" timestamp="1614679503967">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1417" height="163" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
+    <state width="1257" height="163" key="GridCell.Tab.0.center" timestamp="1614697176289">
+      <screen x="0" y="0" width="1280" height="565" />
     </state>
     <state width="1251" height="44" key="GridCell.Tab.0.center/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="3" key="GridCell.Tab.0.center/0.0.1280.565@0.0.1280.565" timestamp="1614670462406" />
+    <state width="1257" height="163" key="GridCell.Tab.0.center/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
     <state width="1257" height="178" key="GridCell.Tab.0.center/0.0.1280.569@0.0.1280.569" timestamp="1608722202009" />
     <state width="1257" height="12" key="GridCell.Tab.0.center/0.0.1280.571@0.0.1280.571" timestamp="1607418540138" />
     <state width="1257" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
@@ -378,12 +384,12 @@
     <state width="1359" height="187" key="GridCell.Tab.0.center/0.0.1382.724@0.0.1382.724" timestamp="1612018517830" />
     <state width="1390" height="200" key="GridCell.Tab.0.center/0.0.1413.669@0.0.1413.669" timestamp="1605607081072" />
     <state width="1390" height="178" key="GridCell.Tab.0.center/0.0.1413.748@0.0.1413.748" timestamp="1608900752650" />
-    <state width="1417" height="163" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1614679503967" />
-    <state width="1417" height="163" key="GridCell.Tab.0.left" timestamp="1614679503967">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1417" height="163" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
+    <state width="1257" height="163" key="GridCell.Tab.0.left" timestamp="1614697176289">
+      <screen x="0" y="0" width="1280" height="565" />
     </state>
     <state width="1251" height="44" key="GridCell.Tab.0.left/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="3" key="GridCell.Tab.0.left/0.0.1280.565@0.0.1280.565" timestamp="1614670462406" />
+    <state width="1257" height="163" key="GridCell.Tab.0.left/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
     <state width="1257" height="178" key="GridCell.Tab.0.left/0.0.1280.569@0.0.1280.569" timestamp="1608722202009" />
     <state width="1257" height="12" key="GridCell.Tab.0.left/0.0.1280.571@0.0.1280.571" timestamp="1607418540138" />
     <state width="1257" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
@@ -393,12 +399,12 @@
     <state width="1359" height="187" key="GridCell.Tab.0.left/0.0.1382.724@0.0.1382.724" timestamp="1612018517830" />
     <state width="1390" height="200" key="GridCell.Tab.0.left/0.0.1413.669@0.0.1413.669" timestamp="1605607081072" />
     <state width="1390" height="178" key="GridCell.Tab.0.left/0.0.1413.748@0.0.1413.748" timestamp="1608900752650" />
-    <state width="1417" height="163" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1614679503967" />
-    <state width="1417" height="163" key="GridCell.Tab.0.right" timestamp="1614679503967">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1417" height="163" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
+    <state width="1257" height="163" key="GridCell.Tab.0.right" timestamp="1614697176289">
+      <screen x="0" y="0" width="1280" height="565" />
     </state>
     <state width="1251" height="44" key="GridCell.Tab.0.right/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="3" key="GridCell.Tab.0.right/0.0.1280.565@0.0.1280.565" timestamp="1614670462406" />
+    <state width="1257" height="163" key="GridCell.Tab.0.right/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
     <state width="1257" height="178" key="GridCell.Tab.0.right/0.0.1280.569@0.0.1280.569" timestamp="1608722202009" />
     <state width="1257" height="12" key="GridCell.Tab.0.right/0.0.1280.571@0.0.1280.571" timestamp="1607418540138" />
     <state width="1257" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
@@ -408,7 +414,7 @@
     <state width="1359" height="187" key="GridCell.Tab.0.right/0.0.1382.724@0.0.1382.724" timestamp="1612018517830" />
     <state width="1390" height="200" key="GridCell.Tab.0.right/0.0.1413.669@0.0.1413.669" timestamp="1605607081072" />
     <state width="1390" height="178" key="GridCell.Tab.0.right/0.0.1413.748@0.0.1413.748" timestamp="1608900752650" />
-    <state width="1417" height="163" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1614679503967" />
+    <state width="1417" height="163" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
     <state width="1390" height="112" key="GridCell.Tab.1.bottom" timestamp="1606230899747">
       <screen x="0" y="0" width="1413" height="748" />
     </state>
@@ -432,14 +438,15 @@
     <state x="37" y="0" key="SettingsEditor/0.0.1280.571@0.0.1280.571" timestamp="1607416485541" />
     <state x="88" y="0" key="SettingsEditor/0.0.1331.669@0.0.1331.669" timestamp="1605602214489" />
     <state x="41" y="0" key="SettingsEditor/0.0.1413.748@0.0.1413.748" timestamp="1609504279711" />
-    <state x="218" y="0" key="Vcs.Push.Dialog.v2" timestamp="1614590324852">
-      <screen x="0" y="0" width="1337" height="745" />
+    <state x="235" y="0" key="Vcs.Push.Dialog.v2" timestamp="1614679690179">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="208" y="0" key="Vcs.Push.Dialog.v2/0.0.1274.724@0.0.1274.724" timestamp="1612256606341" />
     <state x="209" y="0" key="Vcs.Push.Dialog.v2/0.0.1280.565@0.0.1280.565" timestamp="1614069351040" />
     <state x="209" y="0" key="Vcs.Push.Dialog.v2/0.0.1280.569@0.0.1280.569" timestamp="1608722433947" />
     <state x="218" y="0" key="Vcs.Push.Dialog.v2/0.0.1337.745@0.0.1337.745" timestamp="1614590324852" />
     <state x="231" y="47" key="Vcs.Push.Dialog.v2/0.0.1413.748@0.0.1413.748" timestamp="1607421821582" />
+    <state x="235" y="0" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1614679690179" />
     <state x="454" y="240" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605599424436">
       <screen x="0" y="0" width="1331" height="669" />
     </state>
