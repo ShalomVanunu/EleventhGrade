@@ -1,6 +1,6 @@
 import socket
 
-SERVERIP = "192.168.1.159" #The IP of Server
+SERVERIP = "172.20.145.216" #The IP of Server
 PORT = 5050 # well known PORTs  (1-1023)
 
 #Phase 1 - Create socket Object
