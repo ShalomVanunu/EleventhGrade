@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a70f1d7-54b7-4e97-8238-72c7acc51c7b" name="Default Changelist" comment="Updated 12/5/2021">
-      <change afterPath="$PROJECT_DIR$/SOCKET/BaseSocket/Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EleventhGrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EleventhGrade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOCKET/BaseSocket/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/SOCKET/BaseSocket/Server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Class" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +57,7 @@
       <recent name="C:\Users\shalomvanunu\PycharmProjects\EleventhGrade\Receiving Input" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Client">
+  <component name="RunManager" selected="Python.Lengh">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EleventhGrade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +100,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lengh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EleventhGrade" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Variables" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Variables/Lengh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ManageUsers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EleventhGrade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,27 +134,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/ManageUsers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RadioWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="EleventhGrade" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/RadioWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lengh" />
         <item itemvalue="Python.Client" />
         <item itemvalue="Python.Server" />
         <item itemvalue="Python.ManageUsers" />
         <item itemvalue="Python.ImageWindow" />
-        <item itemvalue="Python.RadioWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -354,70 +354,6 @@
     <MESSAGE value="Updated 2/3/2021&#10;UsersManager Tkinter" />
     <MESSAGE value="Updated 12/5/2021" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated 12/5/2021" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="437" y="51" key="FileChooserDialogImpl" timestamp="1621074316518">
-      <screen x="0" y="0" width="1371" height="717" />
-    </state>
-    <state x="426" y="53" key="FileChooserDialogImpl/0.0.1337.745@0.0.1337.745" timestamp="1613748918307" />
-    <state x="437" y="51" key="FileChooserDialogImpl/0.0.1371.717@0.0.1371.717" timestamp="1621074316518" />
-    <state x="280" y="46" key="FileChooserDialogImpl/0.0.878.650@0.0.878.650" timestamp="1612269684791" />
-    <state width="1348" height="89" key="GridCell.Tab.0.bottom" timestamp="1621074318096">
-      <screen x="0" y="0" width="1371" height="717" />
-    </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.bottom/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="163" key="GridCell.Tab.0.bottom/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
-    <state width="1257" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
-    <state width="1314" height="141" key="GridCell.Tab.0.bottom/0.0.1337.745@0.0.1337.745" timestamp="1614590156766" />
-    <state width="1348" height="89" key="GridCell.Tab.0.bottom/0.0.1371.717@0.0.1371.717" timestamp="1621074318096" />
-    <state width="1417" height="163" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
-    <state width="1447" height="261" key="GridCell.Tab.0.bottom/0.0.1470.788@0.0.1470.788" timestamp="1620818313495" />
-    <state width="1348" height="89" key="GridCell.Tab.0.center" timestamp="1621074318096">
-      <screen x="0" y="0" width="1371" height="717" />
-    </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.center/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="163" key="GridCell.Tab.0.center/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
-    <state width="1257" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
-    <state width="1314" height="141" key="GridCell.Tab.0.center/0.0.1337.745@0.0.1337.745" timestamp="1614590156766" />
-    <state width="1348" height="89" key="GridCell.Tab.0.center/0.0.1371.717@0.0.1371.717" timestamp="1621074318096" />
-    <state width="1417" height="163" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
-    <state width="1447" height="261" key="GridCell.Tab.0.center/0.0.1470.788@0.0.1470.788" timestamp="1620818313495" />
-    <state width="1348" height="89" key="GridCell.Tab.0.left" timestamp="1621074318096">
-      <screen x="0" y="0" width="1371" height="717" />
-    </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.left/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="163" key="GridCell.Tab.0.left/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
-    <state width="1257" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
-    <state width="1314" height="141" key="GridCell.Tab.0.left/0.0.1337.745@0.0.1337.745" timestamp="1614590156766" />
-    <state width="1348" height="89" key="GridCell.Tab.0.left/0.0.1371.717@0.0.1371.717" timestamp="1621074318096" />
-    <state width="1417" height="163" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
-    <state width="1447" height="261" key="GridCell.Tab.0.left/0.0.1470.788@0.0.1470.788" timestamp="1620818313495" />
-    <state width="1348" height="89" key="GridCell.Tab.0.right" timestamp="1621074318096">
-      <screen x="0" y="0" width="1371" height="717" />
-    </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.right/0.0.1274.724@0.0.1274.724" timestamp="1612260253344" />
-    <state width="1257" height="163" key="GridCell.Tab.0.right/0.0.1280.565@0.0.1280.565" timestamp="1614697176289" />
-    <state width="1257" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614676208664" />
-    <state width="1314" height="141" key="GridCell.Tab.0.right/0.0.1337.745@0.0.1337.745" timestamp="1614590156766" />
-    <state width="1348" height="89" key="GridCell.Tab.0.right/0.0.1371.717@0.0.1371.717" timestamp="1621074318096" />
-    <state width="1417" height="163" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1614679727655" />
-    <state width="1447" height="261" key="GridCell.Tab.0.right/0.0.1470.788@0.0.1470.788" timestamp="1620818313495" />
-    <state x="37" y="0" key="SettingsEditor" timestamp="1614065323463">
-      <screen x="0" y="0" width="1280" height="565" />
-    </state>
-    <state x="37" y="0" key="SettingsEditor/0.0.1280.565@0.0.1280.565" timestamp="1614065323463" />
-    <state x="240" y="0" key="Vcs.Push.Dialog.v2" timestamp="1620818497214">
-      <screen x="0" y="0" width="1470" height="788" />
-    </state>
-    <state x="208" y="0" key="Vcs.Push.Dialog.v2/0.0.1274.724@0.0.1274.724" timestamp="1612256606341" />
-    <state x="209" y="0" key="Vcs.Push.Dialog.v2/0.0.1280.565@0.0.1280.565" timestamp="1614069351040" />
-    <state x="218" y="0" key="Vcs.Push.Dialog.v2/0.0.1337.745@0.0.1337.745" timestamp="1614590324852" />
-    <state x="235" y="0" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1614679690179" />
-    <state x="240" y="0" key="Vcs.Push.Dialog.v2/0.0.1470.788@0.0.1470.788" timestamp="1620818497214" />
-    <state x="121" y="93" width="840" height="1034" key="search.everywhere.popup" timestamp="1614670570907">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="93" width="840" height="1034" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1614670570907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
