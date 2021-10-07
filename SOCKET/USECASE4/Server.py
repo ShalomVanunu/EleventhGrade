@@ -36,13 +36,19 @@ class Server:
             thread.start()
 
     def sendMessage(self,message):
-        self.clientSocket.send(message.encode(FORMAT))
+        try:
+            self.clientSocket.send(message.encode(FORMAT))
+        except:
+            pass
 
     def recieveMessage(self):
-        message = self.clientSocket.recv(1024).decode(FORMAT)
-        print(message)
+        try :
+            message = self.clientSocket.recv(1024).decode(FORMAT)
+            print(message)
+        except:
+            pass
 
 if __name__ == '__main__':
-    myServer = Server('172.20.155.215', 6565)
+    myServer = Server('172.20.155.214',6565)
     myServer.bind()
     myServer.run()
