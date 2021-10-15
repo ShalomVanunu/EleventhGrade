@@ -10,7 +10,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a70f1d7-54b7-4e97-8238-72c7acc51c7b" name="Default Changelist" comment="Updated 7/10/2021" />
+    <list default="true" id="4a70f1d7-54b7-4e97-8238-72c7acc51c7b" name="Default Changelist" comment="Updated 14/10/2021">
+      <change afterPath="$PROJECT_DIR$/SOCKET/TransferVideo/Cleint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOCKET/TransferVideo/Server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +57,28 @@
       <recent name="C:\Users\shalomvanunu\PycharmProjects\EleventhGrade\Receiving Input" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Server (1)">
+  <component name="RunManager" selected="Python.Cleint">
+    <configuration name="Cleint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EleventhGrade" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOCKET/TransferVideo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOCKET/TransferVideo/Cleint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EleventhGrade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,27 +121,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ManageUsers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="EleventhGrade" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/ManageUsers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EleventhGrade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EleventhGrade" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOCKET/BaseSocket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOCKET/TransferVideo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOCKET/BaseSocket/Server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOCKET/TransferVideo/Server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Cleint" />
+        <item itemvalue="Python.Server (2)" />
         <item itemvalue="Python.Server (1)" />
         <item itemvalue="Python.Lengh" />
         <item itemvalue="Python.Client" />
-        <item itemvalue="Python.Server" />
-        <item itemvalue="Python.ManageUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633623475916</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Updated 14/10/2021">
+      <created>1634199050673</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1634199050673</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +398,8 @@
     <MESSAGE value="Updated 4/10/2021" />
     <MESSAGE value="Updated 6/10/2021" />
     <MESSAGE value="Updated 7/10/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated 7/10/2021" />
+    <MESSAGE value="Updated 14/10/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated 14/10/2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
